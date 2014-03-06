@@ -4,8 +4,8 @@
             leftBtn: '.leftArr',
             rightBtn: '.rightArr',
             autoPlay: false, 
-            autoPlaySpeed: 1,
-            speed : 0.5
+            autoPlayDelay: 1.5,
+            speed : 1,
         }, options);
 
         var make = function(){
@@ -56,11 +56,11 @@
                     rightArrow.click();
                     go = setTimeout(function(){
                         play();
-                    },options.autoPlaySpeed * 1000);
+                    },options.autoPlayDelay * 1000);
                 };
                 var go = setTimeout(function(){
                     play();
-                },options.autoPlaySpeed * 1000);
+                },options.autoPlayDelay * 1000);
                 
                 $(thisWrap).hover(function(){
                     clearTimeout(go);
@@ -68,7 +68,7 @@
                 function(){
                     go = setTimeout(function(){
                         play();
-                    }, options.autoPlaySpeed * 1000);
+                    }, options.autoPlayDelay * 1000);
                 });
             };
 
