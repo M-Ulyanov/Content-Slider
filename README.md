@@ -12,6 +12,7 @@ Content-Slider
 ##Установка
 
  - Создать простую HTML структуру:
+ ```
  <div class="slider-wrap">
     <div class="slider">
         <ul>
@@ -23,6 +24,7 @@ Content-Slider
         <a href="#" class="slider-right"></a>
     </div>
 </div>
+```
  - Подключить актульную версию jQuery
  - Подключить файл плагина jquery.contentslider.js
  - Подключить файл со стилями style.css, блоки отвечающие за сбос стилей, работы слайдера и оформление контента обозначены
