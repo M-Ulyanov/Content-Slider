@@ -1,5 +1,5 @@
 (function($){
-    $.fn.lbSlider = function(options){
+    $.fn.contentSlider = function(options){
         var options = $.extend({
             leftBtn: '.leftArr',
             rightBtn: '.rightArr',
